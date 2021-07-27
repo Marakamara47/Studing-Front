@@ -1,0 +1,47 @@
+.hw_form_body{
+    display: flex;
+    justify-content: space-between;
+}
+form > div{
+    display: flex;
+}
+label{
+    width: 60px;
+    margin-right: 20px;
+}
+input{
+    text-indent: 5px;
+}
+.contacts_delete{
+    background-color: white;
+    border: none;
+    color:#428BC9;
+}
+.blue{
+    border: none;
+    border-radius: 5px;
+    background-color: #428BC9;
+    color: white;
+    padding: 10px 15px;
+}
+.white{
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    padding: 10px 10px;
+}
+.grey{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-left: 5px;
+}
+.download{
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 500px;
+    padding: 5px 0;
+}
+.birthdate, .hobbies{
+    width: 500px;
+}

@@ -1,0 +1,10 @@
+
+1. Реализовать таблицу полагаясь на изображение - http://pyramidin.narod.ru/html401/mergedcells.gif
+2. Реализовать форму. https://habrastorage.org/files/d5f/562/38c/d5f56238c0d0457cbdb7766dca03cc28.png
+3. Проверить на валидность и написать чистый и красивый код.
+
+https://guruweba.com/html/sozdanie-tablits-v-html-vse-o-html-tablitsakh/
+
+На ознакомление, в следующем уроке начнем с этого.
+https://www.w3schools.com/html/html_form_input_types.asp 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input 

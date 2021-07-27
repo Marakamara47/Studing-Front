@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Work</title>
+        <link rel="stylesheet" href="./style/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Home Work 1</h1>
+        </header>
+        <main>
+            <section class="hw_table">
+                <h2 class="section_title">Table</h2>
+                <div class="table">
+                    <table width="300" height="130" border="1" cellspacing="0">
+                        <caption><i>A test table with merged cells</i></caption>
+                        <thead>
+                            <tr>
+                                <tr>
+                                    <th rowspan="2"></th>
+                                    <th colspan="2" align="center">Average</th>
+                                    <th rowspan="2"  align="center">Red eyes</th>
+                                </tr>
+                                <tr>
+                                    <th align="center">height</th>
+                                    <th align="center">weigth</th>
+                                </tr>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th align="center">Males</th>
+                                <td>1.9</td>
+                                <td>0.003</td>
+                                <td>40%</td>
+                            </tr>
+                            <tr>
+                                <th align="center">Females</th>
+                                <td>1.7</td>
+                                <td>0.002</td>
+                                <td>43%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="table_proto">
+                    <img src="./img/Table.gif" alt="table">
+                </div>
+            </section>
+            <section class="hw_form">
+                <h2 class="section_title">Form</h2>
+                <div class="hw_form_body">
+                    <form action="#">
+                        <div>
+                            <label for="name" align="right"><b>Name</b></label>
+                            <input type="text" name="name"  id="name" placeholder="John Doe" size="60">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="email" align="right"><b>Email</b></label>
+                            <input type="email" name="email" id="email" placeholder="johndoe@example.com" size="60">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="password" align="right"><b>Password</b></label>
+                            <input type="password" name="password" id="password" placeholder="******" size="60">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="gender" align="right"><b>Gender</b></label>
+                            <input type="radio" name="gender" value="male" id="gender" checked>
+                            <label for="gender">Male</label>
+                            <input type="radio" name="gender" value="female">
+                            <label for="gender">Female</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="birthdate" align="right"><b>Birthdate</b></label>
+                            <input type="date" name="birthdate" id="birthdate" value="2000-01-01" class="birthdate">
+                        </div>
+                        <br>
+                        <div class="form_contacts">
+                            <label for="contacts" align="right"><b>Contacts</b></label>
+                            <div>
+                                <div>
+                                    <select name="contacts" id="contacts">
+                                        <option value="skype">Skype</option>
+                                        <option value="skype">Skype</option>
+                                        <option value="skype">Skype</option>
+                                    </select>
+                                    <input type="text" name="contacts" placeholder="johndoe">
+                                    <button class="contacts_delete" type="reset">Delete</button>
+                                </div>
+                                <br>
+                                <div>
+                                    <select name="contacts2">
+                                        <option value="other">Other</option>
+                                        <option value="other">Other</option>
+                                        <option value="other">Other</option>
+                                    </select>
+                                    <input type="text" name="contacts" placeholder="Facebook">
+                                    <input type="text" name="contacts" placeholder="johndoe">
+                                    <button class="contacts_delete" type="reset">Delete</button>
+                                </div>
+                                <br>
+                                <div>
+                                    <button class="blue">Save</button>
+                                    <span>or</span>
+                                    <button class="white">Add new</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="photo" align="right"><b>Photo</b></label>
+                            <input type="file" name="photo" class="download" id="photo">
+                        </div>
+                        <br>
+                        <div>
+                            <label for="hobbies" align="right"><b>Hobbies</b></label>
+                            <select name="hobbies" multiple size="4" class="hobbies"  id="hobbies">
+                                <option value="movies">Movies</option>
+                                <option value="music">Music</option>
+                                <option value="cooking">Cooking</option>
+                                <option value="photography">Photography</option>
+                                <option value="cooking">Cooking</option>
+                                <option value="photography">Photography</option>
+                            </select>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="coment" align="right"><b>Some <br> words</b></label>
+                            <textarea name="coment"  id="coment" cols="60" rows="5"></textarea>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="agreement"> </label>
+                            <input type="checkbox" name="agreement" id="agreement">
+                            <label for="agreement">Agreement</label>
+                        </div>
+                        <br>
+                        <div>
+                            <label for="blue"> </label>
+                            <button type="submit"  class="blue" id="blue">Update profile</button>
+                            <button  class="grey">Next</button>
+                        </div>
+                    </form>
+                    <div class="form_proto">
+                        <img src="./img/Form.png" alt="form">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>

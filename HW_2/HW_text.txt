@@ -1,0 +1,42 @@
+Формы ДЗ:
+
+Создать форму с обязательными полями.
+Кнопкой сабмит.
+полем для ФИО - паттерн (все виды букв и большие и мелкие, минимум 5 символов, максимум 25)
+полем для эмэила - паттерн (минимум три символа, собака, минимум 3 символа, точка, минимум 2 символа)
+полем для пароля - паттерн (должен быть не меньше 8 символов, иметь 1 цифру, одну большую букву)
+
+
+Фонты: 
+https://fonts.google.com/?preview.text_type=custom
+https://webref.ru/css/font-face
+
+Подлючить шрифты двумя способами и где нибудь на страничке использовать.
+Как пример можно проработать все свойства и шрифты вот тут https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/bih741v.png
+Свойства CSS - https://webref.ru/css.
+Поработать с этими свойствами:
+border, 
+background, 
+background-image,  
+color, 
+font(size, weight, style), 
+opacity, 
+margin, 
+padding, 
+text-align.
+pointer-events,
+transition, 
+text-indent, 
+visibility,
+word-spacing,
+letter-spacing,
+word-wrap,
+object-fit,
+direction,
+vertical-align,
+outline,
+line-height,
+cursor,
+
+
+Залить все на гит и скинуть ссылку на репозиторий.
