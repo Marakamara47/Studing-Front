@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-Regular.ttf")
+}
+
+input{
+    cursor: pointer;
+}
+
+.fonts__cdn{
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 20px;
+    color: greenyellow;
+    background-color: black;
+    border: 2px solid greenyellow;
+    padding: 20px 10px;
+    width: 50vw;
+}
+
+.fonts__css{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    text-align: justify;
+    text-indent: 20px;
+    color: orange;
+    background-color: black;
+    border: 2px solid orange;
+    padding: 20px 10px;
+    width: 50vw;
+}

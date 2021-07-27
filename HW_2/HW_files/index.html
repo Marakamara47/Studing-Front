@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home work 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <main>
+        <h1>Home Work 2</h1>
+        <section>
+            <h2>Forms</h2>
+            <br>
+            <form action="#">
+                <label for="name">Введите ваше ФИО</label>
+                <input type="text" placeholder="Поле для ввода" id="name" name="fio" required pattern="[A-Za-zА-Яа-яЁё]{5,25}" title="все виды букв и большие и мелкие, минимум 5 символов, максимум 25">
+                <br>
+                <label for="email">Введите ваш email</label>
+                <input type="text" placeholder="Поле для ввода" id="email" name="email" required pattern="[A-Za-z\d]{3,}@[A-Za-z]{3,}.[A-Za-z]{2,}" title="минимум три символа, собака, минимум 3 символа, точка, минимум 2 символа">
+                <br>
+                <label for="password">Введите ваш пароль</label>
+                <input type="password" placeholder="Поле для ввода" id="password" name="password" required pattern="((?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,})" title="не меньше 8 символов, иметь 1 цифру, одну большую букву">
+                <br>
+                <button type="submit">Подтверждение</button>
+            </form>
+        </section>
+        <section>
+            <h2>Fonts</h2>
+            <br>
+            <p class="fonts__cdn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis est in minus a placeat, nisi minima cupiditate officia cum facilis, sequi magnam. Nesciunt eligendi distinctio nihil, alias suscipit dicta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsum labore neque? Illum exercitationem possimus sit tempore quibusdam eos eligendi. Veritatis ullam illo amet expedita in numquam atque necessitatibus consequuntur!</p>
+            <p class="fonts__css">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur omnis est in minus a placeat, nisi minima cupiditate officia cum facilis, sequi magnam. Nesciunt eligendi distinctio nihil, alias suscipit dicta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi ipsum labore neque? Illum exercitationem possimus sit tempore quibusdam eos eligendi. Veritatis ullam illo amet expedita in numquam atque necessitatibus consequuntur!</p>
+        </section>
+    </main>
+</body>
+</html>
